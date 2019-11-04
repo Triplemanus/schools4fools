@@ -18,7 +18,7 @@ export class SearchForm extends React.Component {
 
   updateForm = e => {
     this.setState({ [e.target.name]: [e.target.value] });
-    console.log('updateForm state, locState is:', this.state, this.state.locState);
+    // console.log('updateForm state, locState is:', this.state, this.state.locState);
   };
 
   clearInputs = () => {
@@ -41,23 +41,23 @@ export class SearchForm extends React.Component {
       longLocation:  parseFloat(this.state.longLocation),
       maxDistance: parseInt(this.state.maxDistance)
     };
-    console.log('querySchools in submit: ', querySchools);
+    // console.log('querySchools in submit: ', querySchools);
     this.searchSchools(querySchools);
     this.clearInputs();
   };
 
   searchSchools = querySchools => {
-    console.log('querySchools in searchSchools: ', querySchools);
+    // console.log('querySchools in searchSchools: ', querySchools);
     fetchAllSchools(querySchools)
     .then(schools => {
-      console.log('schools: ', schools);
+      // console.log('schools: ', schools);
       this.props.addSchools(schools)})
     .catch(error => this.setState({ error: error }));
   };
 
   render() {
     const { locState, level, latLocation, longLocation, maxDistance } = this.state;
-    console.log('SearchForm state is : ', this.state);
+    // console.log('SearchForm state is : ', this.state);
     return (
       <header>
         <h1>Search Form</h1>

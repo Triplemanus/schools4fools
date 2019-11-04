@@ -20,7 +20,7 @@ export const SchoolCardContainer = ({ schools, error }) => {
     is_Private: false
   }
 
-console.log('schools value is: ', schools, error);
+// console.log('schools value is: ', schools, error);
 let schoolCards;
 schools ? ( schoolCards = schools.schoolList.map(school => {
   console.log('SCC_Map data: ', school);
@@ -41,7 +41,7 @@ schools ? ( schoolCards = schools.schoolList.map(school => {
       />
   );
 })) : ( schoolCards = <SchoolCard {...testSchool}/> )
-console.log('schoolCards is: ', schoolCards);
+// console.log('schoolCards is: ', schoolCards);
   return (
     <section>
       {schoolCards}
