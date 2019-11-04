@@ -1,0 +1,12 @@
+#cardDetails-container {
+  display: flex;
+  flex-flow: row wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(229, 206, 247);
+}
+
+#school-name {
+  font-size: 30px;
+}

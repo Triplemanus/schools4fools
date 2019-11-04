@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardContainer should match the snapshot 1`] = `
+<section>
+  <Connect(SchoolCard)
+    address="1234 S Monaco St."
+    distance={5.8}
+    high_Grade="12"
+    is_Charter={false}
+    is_Magnet={false}
+    is_Private={false}
+    key="080336006756"
+    level="High"
+    low_Grade="9"
+    phone="303.399.4532"
+    school_id="080336006756"
+    school_name="George Washington High School"
+  />
+</section>
+`;

@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SchoolCardDetails should match the snapshot with all data passed in correctly 1`] = `
+<section
+  className="CardDetails"
+>
+  <Link
+    className="back-btn"
+    to="/"
+  >
+    ◀ back
+  </Link>
+  <article
+    id="cardDetails-container"
+  >
+    <h1
+      id="school-name"
+    >
+      George Washington High
+    </h1>
+    <h2
+      id="address"
+    >
+      6311 Larchwood Dr., Huntington Beach, CA 92647-2320
+    </h2>
+    <p
+      className="card-phone"
+    >
+      (714) 894-7212
+    </p>
+    <p
+      className="card-distance"
+    >
+      20
+    </p>
+  </article>
+</section>
+`;

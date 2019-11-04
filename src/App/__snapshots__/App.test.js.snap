@@ -25,12 +25,16 @@ exports[`App should match the snapshot with all data passed in correctly 1`] = `
   >
     <section>
       <p>
-        All Matching Schools
+        Schools Matching Search
       </p>
     </section>
   </Link>
   <Route
     path="/schools"
+    render={[Function]}
+  />
+  <Route
+    path="/schools/:school_id"
     render={[Function]}
   />
 </section>
