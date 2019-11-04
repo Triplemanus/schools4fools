@@ -28,12 +28,7 @@ console.log('SchoolCard has been summoned!', school_name, phone, is_Charter, add
       <p>Highest Grade: {high_Grade}</p>
       <p>Charter: {is_Charter}   Magnet: {is_Magnet}   Private: {is_Private}</p> */}
       <Link to={`/schools/${school_id}`}>
-        <img 
-          className='poster'
-          src={`http://image.tmdb.org/t/p/w1280`} 
-          alt="Movie poster" 
-        />
-      <button className="detail-button" type="button">School Details</button>
+        <button className="detail-button" type="button">School Details</button>
       </Link>
     </div>
   )
