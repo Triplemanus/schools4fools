@@ -18,7 +18,6 @@ export class SearchForm extends React.Component {
 
   updateForm = e => {
     this.setState({ [e.target.name]: [e.target.value] });
-    console.log('updateForm state, locState is:', this.state, this.state.locState);
   };
 
   clearInputs = () => {
@@ -38,26 +37,22 @@ export class SearchForm extends React.Component {
       state: this.state.locState,
       level: this.state.level,
       latLocation: parseFloat(this.state.latLocation),
-      longLocation:  parseFloat(this.state.longLocation),
+      longLocation: parseFloat(this.state.longLocation),
       maxDistance: parseInt(this.state.maxDistance)
     };
-    console.log('querySchools in submit: ', querySchools);
     this.searchSchools(querySchools);
     this.clearInputs();
   };
 
   searchSchools = querySchools => {
-    console.log('querySchools in searchSchools: ', querySchools);
     fetchAllSchools(querySchools)
     .then(schools => {
-      console.log('schools: ', schools);
       this.props.addSchools(schools)})
     .catch(error => this.setState({ error: error }));
   };
 
   render() {
     const { locState, level, latLocation, longLocation, maxDistance } = this.state;
-    console.log('SearchForm state is : ', this.state);
     return (
       <header>
         <h1>Search Form</h1>
@@ -66,31 +61,32 @@ export class SearchForm extends React.Component {
             type="text"
             name="locState"
             value={locState}
-            placeholder="State"
+            placeholder="State - CO"
             onChange={this.updateForm}        
           />
           <input
             name="level"
             value={level}
-            placeholder="Level"
+            placeholder="High, Middle"
             onChange={this.updateForm}          
           />
           <input
           name="latLocation"
           value={latLocation}
-          placeholder="Latitude"
+          placeholder="Latitude -39.750949"
           onChange={this.updateForm}
           />
           <input
+          label="Longitude"
           name="longLocation"
           value={longLocation}
-          placeholder="Longitude"
+          placeholder="Longitude -104.996605"
           onChange={this.updateForm}
           />
           <input
           name="maxDistance"
           value={maxDistance}
-          placeholder="Distance"
+          placeholder="Distance in Miles"
           onChange={this.updateForm}
           />
           <button onClick={event => this.handleSubmit(event)}>
