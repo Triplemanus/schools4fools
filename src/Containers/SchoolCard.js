@@ -39,3 +39,17 @@ export const mapStateToProps = state => ({
 });
 
 export default connect(mapStateToProps)(SchoolCard);
+
+SchoolCard.propTypes = {
+  school_id: PropTypes.string.isRequired,
+  school_name: PropTypes.string.isRequired,
+  phone: PropTypes.string.isRequired,
+  address: PropTypes.string.isRequired,
+  distance: PropTypes.number.isRequired,
+  low_Grade: PropTypes.string.isRequired,
+  high_Grade: PropTypes.string.isRequired,
+  level: PropTypes.string.isRequired,
+  is_Charter: PropTypes.bool,
+  is_Magnet: PropTypes.bool,
+  is_Private: PropTypes.bool
+}
