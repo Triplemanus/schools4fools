@@ -31,4 +31,9 @@ In addition to viewing the latest and greatest school information, users can als
 
 ## Images
 
+### Home Page
 ![Schools4Fools-Home](https://user-images.githubusercontent.com/17992280/68147990-67e64700-fef8-11e9-87d3-422066b2ccaf.png)
+
+### SchoolCards
+![Schools4Fools-School-Card](https://user-images.githubusercontent.com/17992280/68148834-fe673800-fef9-11e9-9954-62d1e7e8cd80.png)
+
