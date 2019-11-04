@@ -1,0 +1,15 @@
+.CardContainer {
+  background-color: #384150;
+  display: flex;
+  flex-flow: row wrap;
+  height: 80vh;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+#error {
+  color: red;
+  font-size: 15px;
+  height: 25px;
+  text-align: center;
+}

@@ -8,5 +8,5 @@ export const rootReducer = combineReducers({
   errorMsg,
   isLoading,
   getAllSchools,
-  addSchools
+  schools: addSchools
 });

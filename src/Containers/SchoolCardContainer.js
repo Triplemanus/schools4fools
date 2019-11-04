@@ -1,6 +1,6 @@
 import React from 'react';
 import SchoolCard from './SchoolCard';
-import './SchoolCardContainer.css'
+import './SchoolCardContainer.scss'
 import { connect } from 'react-redux';
 
 export const SchoolCardContainer = ({ schools, error }) => {
@@ -22,7 +22,7 @@ export const SchoolCardContainer = ({ schools, error }) => {
 
 console.log('schools value is: ', schools, error);
 let schoolCards;
-(schools) ?  schoolCards = schools.schoolList.map(school => {
+{(schools.length > 0) ? ( schoolCards = schools.schoolList.map(school => {
   console.log('SCC_Map data: ', school);
   return (
       <SchoolCard
@@ -40,11 +40,8 @@ let schoolCards;
       is_Private={school.isPrivate}
       />
   );
-}): 
-// schoolCards =  [];
-schoolCards = 
-  <SchoolCard {...testSchool}/>
-
+})) : ( schoolCards = <SchoolCard {...testSchool}/> )}
+console.log('schoolCards is: ', schoolCards);
  return (
    <section>
      {schoolCards}

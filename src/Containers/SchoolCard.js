@@ -16,19 +16,16 @@ export const SchoolCard = ({
   is_Magnet,
   is_Private
 }) => {
-console.log('SchoolCard has been summoned!');
+console.log('SchoolCard has been summoned!', school_name, phone, is_Charter, address);
   return (
     <div className="Card">
       <h2>Name: {school_name}</h2>
-      <h3>Phone: {phone}</h3>
-      <h3>Address: {address}</h3>
-      <h3>Distance: {distance}</h3>
-      <h3>Level: {level}</h3>
-      <h3>Lowest Grade: {low_Grade}</h3>
-      <h3>Highest Grade: {high_Grade}</h3>
-      <h3>Charter: {is_Charter}</h3>
-      <h3>Magnet: {is_Magnet}</h3>
-      <h3>Private: {is_Private}</h3>
+      <p>Phone: {phone}</p>
+      <p>Distance: {distance}</p>
+      <p>Level: {level}</p>
+      <p>Lowest Grade: {low_Grade}</p>
+      <p>Highest Grade: {high_Grade}</p>
+      <p>Charter: {is_Charter}   Magnet: {is_Magnet}   Private: {is_Private}</p>
     </div>
   )
 }
