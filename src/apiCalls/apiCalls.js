@@ -5,6 +5,17 @@ export const fetchAllSchools = async (querySchools) => {
   //console.log('fetchAllSchools url is ', url);
   const response = await fetch(url);
   if (!response.ok) {
+    throw new Error ('There was an error getting schools data.');
+  }
+  const schools = await response.json();
+  return schools;
+}
+
+export const getSchoolDetails = async (schoolId) => {
+  const url = `https://api.schooldigger.com/v1.2/schools/${schoolId}?appID=d04b0481&appKey=0c80520db8adfa4e8be1ea61724e1f24`;
+
+  const response = await fetch(url);
+  if (!response.ok) {
     throw new Error ('There was an error getting your school data.');
   }
   const schools = await response.json();

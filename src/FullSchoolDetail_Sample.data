@@ -1,0 +1,881 @@
+{
+  "schoolid": "064215006903",
+  "schoolName": "Helen Stacey Middle",
+  "phone": "(714) 894-7212",
+  "url": "https://www.schooldigger.com/go/CA/schools/4215006903/school.aspx",
+  "urlCompare": "https://www.schooldigger.com/go/CA/schools/4215006903/search.aspx",
+  "address": {
+    "latLong": {
+      "latitude": 33.747461,
+      "longitude": -118.01877
+    },
+    "street": "6311 Larchwood Dr.",
+    "city": "Huntington Beach",
+    "state": "CA",
+    "stateFull": "California",
+    "zip": "92647",
+    "zip4": "2320",
+    "cityURL": "https://www.schooldigger.com/go/CA/city/Huntington+Beach/search.aspx",
+    "zipURL": "https://www.schooldigger.com/go/CA/zip/92647/search.aspx",
+    "html": "6311 Larchwood Dr.<br />Huntington Beach, CA 92647-2320"
+  },
+  "locale": "Suburb: Large",
+  "lowGrade": "6",
+  "highGrade": "8",
+  "schoolLevel": "Middle",
+  "isCharterSchool": "No",
+  "isMagnetSchool": "No",
+  "isVirtualSchool": "No",
+  "isTitleISchool": "Yes",
+  "isTitleISchoolwideSchool": "No",
+  "isPrivate": false,
+  "privateDays": null,
+  "privateHours": null,
+  "privateHasLibrary": null,
+  "privateCoed": null,
+  "privateOrientation": null,
+  "boundary": {
+    "polylineCollection": [
+      {
+        "polylineOverlayEncodedPoints": "kzbmE~}loUr@aAhA}AlCmDz@}@pA}AzEiGjCmDbEcF~@mAvByCxCqDv@eAdByBhAwAbEcFpA}AtBgCfDyEnA}AvBoCz@w@F}A?qAAkDAcDAgCEkEGaLGwCAeA?uE?cE?{B?sC@eB?sAAmC?aCAeBAgECsA@cE?sB?aBAoE?oC?gB?oCAsC?{B?gECkFCmD@cBCwA?iAAsAAiA?iBAqCAgBCkDAsA?cBAwECoExDYrDApDA`EAhECtCAjAAjBAdD@IxA?rDFrQBvI@vA@|BBpEFfAn@Jt@BdBFhBAxJAlBAnC?`HAbFANgI?gFI}HE_HByADgB@eDE{E~A@vB?bC?tA?`BAnB?`BAlCCfBAnC?|BApBA`AQ?B@A?Y@@@T?T?D?tCAp@?^?z@?????b@?^?X?P?h@@xA?T?T@BF`@NbAD\\DPJd@DRRz@?@@BBLDPPx@DPBJ?BDVD^Bt@?P?L@@?BATA`@Ab@Aj@?BATQhAaApD???@CRK`AGb@AJ?f@?L??R?@hE?pH?hX?lB@rHQ@???D?P?D?D?T?D@h@?T?P?r@?X?B?@?h@@T?dA?V?T@`@?b@?V?X?`@?dB@b@?`@?fB?`@?`@@dB?`@?`@@`B?`@?`@AhB?b@?dA?R???|B@`A?Z?j@@fBBpF@fA?hB?`@?fBA`@?L?j@?N?P@x@?P@`@@dB?H?V?b@AhB?`@AL?j@?N?j@?j@@xHAd@yAh@_DFgE@mRF}AEkCO_CBg@@sAFsC@mB@}B?wB@oD@wKFmAGkBAyCDBjB?jC@jDtCDDvIA~CKbC[lC_@jBYbA{ApDoCpD_B~AiBrBoBnB_A~@d@jAxBfDvEbH|CtExEtHvAhCbBrC\\nANJ_AK????u@LMB_@NoBl@qCz@MDM?c@?aK?YAOAaD@uB?oAAkCAsHAS@G?sA?G???k@AY?kBAgB@}@?aF?y@Ac@???c@AaE?}F?yBA??{CAM?q@?kA?yE?_H?M?wCAa@A??@a@Bq@??KBC?S?eC?eGBa@?y@?m@?w@@M@?AOKc@IE?I?A????{A@}BF]^wA~@oC^{@h@oAb@u@bA{AnAgB|C}DlCgD",
+        "numberEncodedPoints": 377
+      }
+    ],
+    "hasBoundary": true
+  },
+  "district": {
+    "districtID": "0642150",
+    "districtName": "Westminster",
+    "url": "https://www.schooldigger.com/go/CA/district/42150/search.aspx",
+    "rankURL": "https://www.schooldigger.com/go/CA/districtrank.aspx?finddistrict=42150"
+  },
+  "county": {
+    "countyName": "Orange",
+    "countyURL": "https://www.schooldigger.com/go/CA/county/Orange/search.aspx"
+  },
+  "reviews": null,
+  "rankHistory": [
+    {
+      "year": 2019,
+      "rank": 516,
+      "rankOf": 2623,
+      "rankStars": 4,
+      "rankLevel": "Middle",
+      "rankStatewidePercentage": 80.33,
+      "averageStandardScore": 78.08507
+    },
+    {
+      "year": 2018,
+      "rank": 392,
+      "rankOf": 2480,
+      "rankStars": 4,
+      "rankLevel": "Middle",
+      "rankStatewidePercentage": 84.19,
+      "averageStandardScore": 82.89166
+    },
+    {
+      "year": 2017,
+      "rank": 429,
+      "rankOf": 2508,
+      "rankStars": 4,
+      "rankLevel": "Middle",
+      "rankStatewidePercentage": 82.89,
+      "averageStandardScore": 81.31099
+    },
+    {
+      "year": 2016,
+      "rank": 479,
+      "rankOf": 2497,
+      "rankStars": 4,
+      "rankLevel": "Middle",
+      "rankStatewidePercentage": 80.82,
+      "averageStandardScore": 78.32929
+    }
+  ],
+  "rankMovement": -124,
+  "testScores": [
+    {
+      "test": "CST",
+      "subject": "Science",
+      "year": 2016,
+      "grade": "8",
+      "schoolTestScore": {
+        "studentsTested": 334,
+        "meanScaledScore": 415.6,
+        "percentMetStandard": 80
+      },
+      "districtTestScore": {
+        "studentsTested": 980,
+        "meanScaledScore": 408.5,
+        "percentMetStandard": 74
+      },
+      "stateTestScore": {
+        "studentsTested": 437523,
+        "meanScaledScore": 381.4,
+        "percentMetStandard": 61
+      }
+    },
+    {
+      "test": "Smarter Balanced Assessments",
+      "subject": "English Language Arts/Literacy",
+      "year": 2016,
+      "grade": "6",
+      "schoolTestScore": {
+        "studentsEligible": 123,
+        "studentsTested": 120,
+        "meanScaledScore": 2535.7,
+        "percentMetStandard": 53
+      },
+      "districtTestScore": {
+        "studentsEligible": 1026,
+        "studentsTested": 984,
+        "meanScaledScore": 2539.2,
+        "percentMetStandard": 57
+      },
+      "stateTestScore": {
+        "studentsEligible": 474191,
+        "studentsTested": 459825,
+        "meanScaledScore": 2519.4,
+        "percentMetStandard": 47
+      }
+    },
+    {
+      "test": "Smarter Balanced Assessments",
+      "subject": "English Language Arts/Literacy",
+      "year": 2017,
+      "grade": "6",
+      "schoolTestScore": {
+        "studentsEligible": 175,
+        "studentsTested": 173,
+        "meanScaledScore": 2536.2,
+        "percentMetStandard": 57.8
+      },
+      "districtTestScore": {
+        "studentsEligible": 1041,
+        "studentsTested": 1026,
+        "meanScaledScore": 2538.7,
+        "percentMetStandard": 56.43
+      },
+      "stateTestScore": {
+        "studentsEligible": 473125,
+        "studentsTested": 462979,
+        "meanScaledScore": 2518.9,
+        "percentMetStandard": 47.04
+      }
+    },
+    {
+      "test": "Smarter Balanced Assessments",
+      "subject": "English Language Arts/Literacy",
+      "year": 2018,
+      "grade": "6",
+      "schoolTestScore": {
+        "studentsEligible": 217,
+        "studentsTested": 211,
+        "meanScaledScore": 2546.6,
+        "percentMetStandard": 60.19
+      },
+      "districtTestScore": {
+        "studentsEligible": 1006,
+        "studentsTested": 983,
+        "meanScaledScore": 2534.1,
+        "percentMetStandard": 54.93
+      },
+      "stateTestScore": {
+        "studentsEligible": 482835,
+        "studentsTested": 472515,
+        "meanScaledScore": 2518.9,
+        "percentMetStandard": 47.83
+      }
+    },
+    {
+      "test": "Smarter Balanced Assessments",
+      "subject": "English Language Arts/Literacy",
+      "year": 2019,
+      "grade": "6",
+      "schoolTestScore": {
+        "studentsEligible": 173,
+        "studentsTested": 170,
+        "meanScaledScore": 2524.8,
+        "percentMetStandard": 50.59
+      },
+      "districtTestScore": {
+        "studentsEligible": 1032,
+        "studentsTested": 1017,
+        "meanScaledScore": 2528.3,
+        "percentMetStandard": 53.05
+      },
+      "stateTestScore": {
+        "studentsEligible": 467657,
+        "studentsTested": 457718,
+        "meanScaledScore": 2521,
+        "percentMetStandard": 48.45
+      }
+    },
+    {
+      "test": "Smarter Balanced Assessments",
+      "subject": "English Language Arts/Literacy",
+      "year": 2016,
+      "grade": "7",
+      "schoolTestScore": {
+        "studentsEligible": 336,
+        "studentsTested": 326,
+        "meanScaledScore": 2569,
+        "percentMetStandard": 57
+      },
+      "districtTestScore": {
+        "studentsEligible": 1010,
+        "studentsTested": 983,
+        "meanScaledScore": 2557.6,
+        "percentMetStandard": 53
+      },
+      "stateTestScore": {
+        "studentsEligible": 473378,
+        "studentsTested": 458088,
+        "meanScaledScore": 2541.7,
+        "percentMetStandard": 48
+      }
+    },
+    {
+      "test": "Smarter Balanced Assessments",
+      "subject": "English Language Arts/Literacy",
+      "year": 2017,
+      "grade": "7",
+      "schoolTestScore": {
+        "studentsEligible": 320,
+        "studentsTested": 316,
+        "meanScaledScore": 2579,
+        "percentMetStandard": 62.97
+      },
+      "districtTestScore": {
+        "studentsEligible": 1039,
+        "studentsTested": 1015,
+        "meanScaledScore": 2564.3,
+        "percentMetStandard": 58.05
+      },
+      "stateTestScore": {
+        "studentsEligible": 471265,
+        "studentsTested": 459252,
+        "meanScaledScore": 2542.4,
+        "percentMetStandard": 49.39
+      }
+    },
+    {
+      "test": "Smarter Balanced Assessments",
+      "subject": "English Language Arts/Literacy",
+      "year": 2018,
+      "grade": "7",
+      "schoolTestScore": {
+        "studentsEligible": 395,
+        "studentsTested": 389,
+        "meanScaledScore": 2585.8,
+        "percentMetStandard": 67.78
+      },
+      "districtTestScore": {
+        "studentsEligible": 1055,
+        "studentsTested": 1035,
+        "meanScaledScore": 2567.5,
+        "percentMetStandard": 60.44
+      },
+      "stateTestScore": {
+        "studentsEligible": 474057,
+        "studentsTested": 461621,
+        "meanScaledScore": 2543.9,
+        "percentMetStandard": 50.15
+      }
+    },
+    {
+      "test": "Smarter Balanced Assessments",
+      "subject": "English Language Arts/Literacy",
+      "year": 2019,
+      "grade": "7",
+      "schoolTestScore": {
+        "studentsEligible": 369,
+        "studentsTested": 364,
+        "meanScaledScore": 2582.2,
+        "percentMetStandard": 64.01
+      },
+      "districtTestScore": {
+        "studentsEligible": 987,
+        "studentsTested": 974,
+        "meanScaledScore": 2567,
+        "percentMetStandard": 59.03
+      },
+      "stateTestScore": {
+        "studentsEligible": 483809,
+        "studentsTested": 471901,
+        "meanScaledScore": 2547.5,
+        "percentMetStandard": 51.38
+      }
+    },
+    {
+      "test": "Smarter Balanced Assessments",
+      "subject": "English Language Arts/Literacy",
+      "year": 2016,
+      "grade": "8",
+      "schoolTestScore": {
+        "studentsEligible": 364,
+        "studentsTested": 355,
+        "meanScaledScore": 2596.6,
+        "percentMetStandard": 66
+      },
+      "districtTestScore": {
+        "studentsEligible": 1071,
+        "studentsTested": 1030,
+        "meanScaledScore": 2584.1,
+        "percentMetStandard": 60
+      },
+      "stateTestScore": {
+        "studentsEligible": 468465,
+        "studentsTested": 451873,
+        "meanScaledScore": 2559.5,
+        "percentMetStandard": 49
+      }
+    },
+    {
+      "test": "Smarter Balanced Assessments",
+      "subject": "English Language Arts/Literacy",
+      "year": 2017,
+      "grade": "8",
+      "schoolTestScore": {
+        "studentsEligible": 332,
+        "studentsTested": 330,
+        "meanScaledScore": 2584.5,
+        "percentMetStandard": 57.88
+      },
+      "districtTestScore": {
+        "studentsEligible": 1011,
+        "studentsTested": 987,
+        "meanScaledScore": 2582.2,
+        "percentMetStandard": 57.81
+      },
+      "stateTestScore": {
+        "studentsEligible": 470237,
+        "studentsTested": 457047,
+        "meanScaledScore": 2558.7,
+        "percentMetStandard": 48.61
+      }
+    },
+    {
+      "test": "Smarter Balanced Assessments",
+      "subject": "English Language Arts/Literacy",
+      "year": 2018,
+      "grade": "8",
+      "schoolTestScore": {
+        "studentsEligible": 330,
+        "studentsTested": 327,
+        "meanScaledScore": 2585.4,
+        "percentMetStandard": 58.28
+      },
+      "districtTestScore": {
+        "studentsEligible": 1017,
+        "studentsTested": 996,
+        "meanScaledScore": 2582.8,
+        "percentMetStandard": 58.29
+      },
+      "stateTestScore": {
+        "studentsEligible": 472096,
+        "studentsTested": 458628,
+        "meanScaledScore": 2559,
+        "percentMetStandard": 49.12
+      }
+    },
+    {
+      "test": "Smarter Balanced Assessments",
+      "subject": "English Language Arts/Literacy",
+      "year": 2019,
+      "grade": "8",
+      "schoolTestScore": {
+        "studentsEligible": 394,
+        "studentsTested": 391,
+        "meanScaledScore": 2592.7,
+        "percentMetStandard": 62.15
+      },
+      "districtTestScore": {
+        "studentsEligible": 1072,
+        "studentsTested": 1047,
+        "meanScaledScore": 2581.1,
+        "percentMetStandard": 58.83
+      },
+      "stateTestScore": {
+        "studentsEligible": 474832,
+        "studentsTested": 461955,
+        "meanScaledScore": 2560.8,
+        "percentMetStandard": 49.41
+      }
+    },
+    {
+      "test": "Smarter Balanced Assessments",
+      "subject": "Mathematics",
+      "year": 2016,
+      "grade": "6",
+      "schoolTestScore": {
+        "studentsEligible": 123,
+        "studentsTested": 120,
+        "meanScaledScore": 2535.4,
+        "percentMetStandard": 46
+      },
+      "districtTestScore": {
+        "studentsEligible": 1026,
+        "studentsTested": 999,
+        "meanScaledScore": 2536.2,
+        "percentMetStandard": 48
+      },
+      "stateTestScore": {
+        "studentsEligible": 474192,
+        "studentsTested": 461421,
+        "meanScaledScore": 2508.6,
+        "percentMetStandard": 35
+      }
+    },
+    {
+      "test": "Smarter Balanced Assessments",
+      "subject": "Mathematics",
+      "year": 2017,
+      "grade": "6",
+      "schoolTestScore": {
+        "studentsEligible": 175,
+        "studentsTested": 175,
+        "meanScaledScore": 2558.5,
+        "percentMetStandard": 57.14
+      },
+      "districtTestScore": {
+        "studentsEligible": 1041,
+        "studentsTested": 1036,
+        "meanScaledScore": 2539.6,
+        "percentMetStandard": 47.97
+      },
+      "stateTestScore": {
+        "studentsEligible": 473125,
+        "studentsTested": 464954,
+        "meanScaledScore": 2508.5,
+        "percentMetStandard": 36.48
+      }
+    },
+    {
+      "test": "Smarter Balanced Assessments",
+      "subject": "Mathematics",
+      "year": 2018,
+      "grade": "6",
+      "schoolTestScore": {
+        "studentsEligible": 217,
+        "studentsTested": 211,
+        "meanScaledScore": 2567.7,
+        "percentMetStandard": 61.14
+      },
+      "districtTestScore": {
+        "studentsEligible": 1006,
+        "studentsTested": 995,
+        "meanScaledScore": 2534.4,
+        "percentMetStandard": 48.94
+      },
+      "stateTestScore": {
+        "studentsEligible": 482837,
+        "studentsTested": 473798,
+        "meanScaledScore": 2511,
+        "percentMetStandard": 37.49
+      }
+    },
+    {
+      "test": "Smarter Balanced Assessments",
+      "subject": "Mathematics",
+      "year": 2019,
+      "grade": "6",
+      "schoolTestScore": {
+        "studentsEligible": 173,
+        "studentsTested": 173,
+        "meanScaledScore": 2533.4,
+        "percentMetStandard": 42.77
+      },
+      "districtTestScore": {
+        "studentsEligible": 1032,
+        "studentsTested": 1026,
+        "meanScaledScore": 2534.6,
+        "percentMetStandard": 47.08
+      },
+      "stateTestScore": {
+        "studentsEligible": 467657,
+        "studentsTested": 459313,
+        "meanScaledScore": 2513.8,
+        "percentMetStandard": 38.52
+      }
+    },
+    {
+      "test": "Smarter Balanced Assessments",
+      "subject": "Mathematics",
+      "year": 2016,
+      "grade": "7",
+      "schoolTestScore": {
+        "studentsEligible": 337,
+        "studentsTested": 329,
+        "meanScaledScore": 2577,
+        "percentMetStandard": 56
+      },
+      "districtTestScore": {
+        "studentsEligible": 1011,
+        "studentsTested": 991,
+        "meanScaledScore": 2559.5,
+        "percentMetStandard": 50
+      },
+      "stateTestScore": {
+        "studentsEligible": 473367,
+        "studentsTested": 459997,
+        "meanScaledScore": 2525,
+        "percentMetStandard": 36
+      }
+    },
+    {
+      "test": "Smarter Balanced Assessments",
+      "subject": "Mathematics",
+      "year": 2017,
+      "grade": "7",
+      "schoolTestScore": {
+        "studentsEligible": 320,
+        "studentsTested": 318,
+        "meanScaledScore": 2591,
+        "percentMetStandard": 60.69
+      },
+      "districtTestScore": {
+        "studentsEligible": 1039,
+        "studentsTested": 1028,
+        "meanScaledScore": 2571.2,
+        "percentMetStandard": 52.82
+      },
+      "stateTestScore": {
+        "studentsEligible": 471265,
+        "studentsTested": 461364,
+        "meanScaledScore": 2524.9,
+        "percentMetStandard": 36.91
+      }
+    },
+    {
+      "test": "Smarter Balanced Assessments",
+      "subject": "Mathematics",
+      "year": 2018,
+      "grade": "7",
+      "schoolTestScore": {
+        "studentsEligible": 395,
+        "studentsTested": 386,
+        "meanScaledScore": 2584.3,
+        "percentMetStandard": 59.84
+      },
+      "districtTestScore": {
+        "studentsEligible": 1055,
+        "studentsTested": 1041,
+        "meanScaledScore": 2566.7,
+        "percentMetStandard": 52.93
+      },
+      "stateTestScore": {
+        "studentsEligible": 474055,
+        "studentsTested": 462731,
+        "meanScaledScore": 2524.3,
+        "percentMetStandard": 37.3
+      }
+    },
+    {
+      "test": "Smarter Balanced Assessments",
+      "subject": "Mathematics",
+      "year": 2019,
+      "grade": "7",
+      "schoolTestScore": {
+        "studentsEligible": 369,
+        "studentsTested": 366,
+        "meanScaledScore": 2583.5,
+        "percentMetStandard": 57.38
+      },
+      "districtTestScore": {
+        "studentsEligible": 987,
+        "studentsTested": 982,
+        "meanScaledScore": 2564.5,
+        "percentMetStandard": 51.12
+      },
+      "stateTestScore": {
+        "studentsEligible": 483809,
+        "studentsTested": 473298,
+        "meanScaledScore": 2526.6,
+        "percentMetStandard": 37.85
+      }
+    },
+    {
+      "test": "Smarter Balanced Assessments",
+      "subject": "Mathematics",
+      "year": 2016,
+      "grade": "8",
+      "schoolTestScore": {
+        "studentsEligible": 364,
+        "studentsTested": 357,
+        "meanScaledScore": 2604.9,
+        "percentMetStandard": 60
+      },
+      "districtTestScore": {
+        "studentsEligible": 1071,
+        "studentsTested": 1041,
+        "meanScaledScore": 2582.8,
+        "percentMetStandard": 50
+      },
+      "stateTestScore": {
+        "studentsEligible": 468445,
+        "studentsTested": 453376,
+        "meanScaledScore": 2541.1,
+        "percentMetStandard": 36
+      }
+    },
+    {
+      "test": "Smarter Balanced Assessments",
+      "subject": "Mathematics",
+      "year": 2017,
+      "grade": "8",
+      "schoolTestScore": {
+        "studentsEligible": 332,
+        "studentsTested": 332,
+        "meanScaledScore": 2609,
+        "percentMetStandard": 60.42
+      },
+      "districtTestScore": {
+        "studentsEligible": 1012,
+        "studentsTested": 1001,
+        "meanScaledScore": 2589,
+        "percentMetStandard": 54.5
+      },
+      "stateTestScore": {
+        "studentsEligible": 470237,
+        "studentsTested": 458491,
+        "meanScaledScore": 2540.2,
+        "percentMetStandard": 36.3
+      }
+    },
+    {
+      "test": "Smarter Balanced Assessments",
+      "subject": "Mathematics",
+      "year": 2018,
+      "grade": "8",
+      "schoolTestScore": {
+        "studentsEligible": 330,
+        "studentsTested": 325,
+        "meanScaledScore": 2608.4,
+        "percentMetStandard": 61.54
+      },
+      "districtTestScore": {
+        "studentsEligible": 1017,
+        "studentsTested": 999,
+        "meanScaledScore": 2588,
+        "percentMetStandard": 54.56
+      },
+      "stateTestScore": {
+        "studentsEligible": 472095,
+        "studentsTested": 459145,
+        "meanScaledScore": 2540.5,
+        "percentMetStandard": 36.88
+      }
+    },
+    {
+      "test": "Smarter Balanced Assessments",
+      "subject": "Mathematics",
+      "year": 2019,
+      "grade": "8",
+      "schoolTestScore": {
+        "studentsEligible": 394,
+        "studentsTested": 394,
+        "meanScaledScore": 2616.4,
+        "percentMetStandard": 62.94
+      },
+      "districtTestScore": {
+        "studentsEligible": 1072,
+        "studentsTested": 1067,
+        "meanScaledScore": 2587.3,
+        "percentMetStandard": 52.25
+      },
+      "stateTestScore": {
+        "studentsEligible": 474832,
+        "studentsTested": 462755,
+        "meanScaledScore": 2539.9,
+        "percentMetStandard": 36.63
+      }
+    }
+  ],
+  "schoolYearlyDetails": [
+    {
+      "year": 2018,
+      "numberOfStudents": 933,
+      "percentFreeDiscLunch": 53.5,
+      "percentofAfricanAmericanStudents": 0.64,
+      "percentofAsianStudents": 32.48,
+      "percentofHispanicStudents": 35.05,
+      "percentofIndianStudents": 0.32,
+      "percentofPacificIslanderStudents": 0.21,
+      "percentofWhiteStudents": 26.15,
+      "percentofTwoOrMoreRaceStudents": 5.14,
+      "percentofUnspecifiedRaceStudents": 0,
+      "teachersFulltime": 38,
+      "pupilTeacherRatio": 24.5,
+      "numberofAfricanAmericanStudents": 6,
+      "numberofAsianStudents": 303,
+      "numberofHispanicStudents": 327,
+      "numberofIndianStudents": 3,
+      "numberofPacificIslanderStudents": 2,
+      "numberofWhiteStudents": 244,
+      "numberofTwoOrMoreRaceStudents": 48,
+      "numberofUnspecifiedRaceStudents": 0
+    },
+    {
+      "year": 2017,
+      "numberOfStudents": 839,
+      "percentFreeDiscLunch": 53.8,
+      "percentofAfricanAmericanStudents": 0.36,
+      "percentofAsianStudents": 35.28,
+      "percentofHispanicStudents": 32.9,
+      "percentofIndianStudents": 0.36,
+      "percentofPacificIslanderStudents": 0.12,
+      "percentofWhiteStudents": 25.39,
+      "percentofTwoOrMoreRaceStudents": 5.6,
+      "percentofUnspecifiedRaceStudents": 0,
+      "teachersFulltime": 34.8,
+      "pupilTeacherRatio": 24,
+      "numberofAfricanAmericanStudents": 3,
+      "numberofAsianStudents": 296,
+      "numberofHispanicStudents": 276,
+      "numberofIndianStudents": 3,
+      "numberofPacificIslanderStudents": 1,
+      "numberofWhiteStudents": 213,
+      "numberofTwoOrMoreRaceStudents": 47,
+      "numberofUnspecifiedRaceStudents": 0
+    },
+    {
+      "year": 2016,
+      "numberOfStudents": 826,
+      "percentFreeDiscLunch": 55.2,
+      "percentofAfricanAmericanStudents": 0.36,
+      "percentofAsianStudents": 33.41,
+      "percentofHispanicStudents": 35.59,
+      "percentofIndianStudents": 0.61,
+      "percentofPacificIslanderStudents": 0.48,
+      "percentofWhiteStudents": 24.46,
+      "percentofTwoOrMoreRaceStudents": 5.08,
+      "percentofUnspecifiedRaceStudents": 0,
+      "teachersFulltime": 36,
+      "pupilTeacherRatio": 22.9,
+      "numberofAfricanAmericanStudents": 3,
+      "numberofAsianStudents": 276,
+      "numberofHispanicStudents": 294,
+      "numberofIndianStudents": 5,
+      "numberofPacificIslanderStudents": 4,
+      "numberofWhiteStudents": 202,
+      "numberofTwoOrMoreRaceStudents": 42,
+      "numberofUnspecifiedRaceStudents": 0
+    },
+    {
+      "year": 2015,
+      "numberOfStudents": 907,
+      "percentFreeDiscLunch": 51.7,
+      "percentofAfricanAmericanStudents": 0.88,
+      "percentofAsianStudents": 31.86,
+      "percentofHispanicStudents": 36.6,
+      "percentofIndianStudents": 0.55,
+      "percentofPacificIslanderStudents": 0.77,
+      "percentofWhiteStudents": 24.37,
+      "percentofTwoOrMoreRaceStudents": 4.96,
+      "percentofUnspecifiedRaceStudents": 0,
+      "teachersFulltime": 39,
+      "pupilTeacherRatio": 23.2,
+      "numberofAfricanAmericanStudents": 8,
+      "numberofAsianStudents": 289,
+      "numberofHispanicStudents": 332,
+      "numberofIndianStudents": 5,
+      "numberofPacificIslanderStudents": 7,
+      "numberofWhiteStudents": 221,
+      "numberofTwoOrMoreRaceStudents": 45,
+      "numberofUnspecifiedRaceStudents": 0
+    },
+    {
+      "year": 2014,
+      "numberOfStudents": 902,
+      "percentFreeDiscLunch": 58.5,
+      "percentofAfricanAmericanStudents": 1,
+      "percentofAsianStudents": 32.15,
+      "percentofHispanicStudents": 36.47,
+      "percentofIndianStudents": 0.55,
+      "percentofPacificIslanderStudents": 0.67,
+      "percentofWhiteStudents": 24.83,
+      "percentofTwoOrMoreRaceStudents": 4.32,
+      "percentofUnspecifiedRaceStudents": 0,
+      "teachersFulltime": 38,
+      "pupilTeacherRatio": 23.7,
+      "numberofAfricanAmericanStudents": 9,
+      "numberofAsianStudents": 290,
+      "numberofHispanicStudents": 329,
+      "numberofIndianStudents": 5,
+      "numberofPacificIslanderStudents": 6,
+      "numberofWhiteStudents": 224,
+      "numberofTwoOrMoreRaceStudents": 39,
+      "numberofUnspecifiedRaceStudents": 0
+    },
+    {
+      "year": 2013,
+      "numberOfStudents": 857,
+      "percentFreeDiscLunch": 61.1,
+      "percentofAfricanAmericanStudents": 0.93,
+      "percentofAsianStudents": 31.62,
+      "percentofHispanicStudents": 35.12,
+      "percentofIndianStudents": 0.93,
+      "percentofPacificIslanderStudents": 0.7,
+      "percentofWhiteStudents": 26.72,
+      "percentofTwoOrMoreRaceStudents": 3.97,
+      "percentofUnspecifiedRaceStudents": 0,
+      "teachersFulltime": 37,
+      "pupilTeacherRatio": 23.1,
+      "numberofAfricanAmericanStudents": 8,
+      "numberofAsianStudents": 271,
+      "numberofHispanicStudents": 301,
+      "numberofIndianStudents": 8,
+      "numberofPacificIslanderStudents": 6,
+      "numberofWhiteStudents": 229,
+      "numberofTwoOrMoreRaceStudents": 34,
+      "numberofUnspecifiedRaceStudents": 0
+    },
+    {
+      "year": 2012,
+      "numberOfStudents": 852,
+      "percentFreeDiscLunch": 60.2,
+      "percentofAfricanAmericanStudents": 1.76,
+      "percentofAsianStudents": 29.93,
+      "percentofHispanicStudents": 36.27,
+      "percentofIndianStudents": 0.94,
+      "percentofPacificIslanderStudents": 1.17,
+      "percentofWhiteStudents": 26.53,
+      "percentofTwoOrMoreRaceStudents": 3.4,
+      "percentofUnspecifiedRaceStudents": 0,
+      "teachersFulltime": 37,
+      "pupilTeacherRatio": 23,
+      "numberofAfricanAmericanStudents": 15,
+      "numberofAsianStudents": 255,
+      "numberofHispanicStudents": 309,
+      "numberofIndianStudents": 8,
+      "numberofPacificIslanderStudents": 10,
+      "numberofWhiteStudents": 226,
+      "numberofTwoOrMoreRaceStudents": 29,
+      "numberofUnspecifiedRaceStudents": 0
+    },
+    {
+      "year": 2011,
+      "numberOfStudents": 862,
+      "percentFreeDiscLunch": 57.1,
+      "percentofAfricanAmericanStudents": 2.55,
+      "percentofAsianStudents": 25.17,
+      "percentofHispanicStudents": 38.98,
+      "percentofIndianStudents": 1.16,
+      "percentofPacificIslanderStudents": 1.04,
+      "percentofWhiteStudents": 27.03,
+      "percentofTwoOrMoreRaceStudents": 4.06,
+      "percentofUnspecifiedRaceStudents": 0,
+      "teachersFulltime": null,
+      "pupilTeacherRatio": null,
+      "numberofAfricanAmericanStudents": 22,
+      "numberofAsianStudents": 217,
+      "numberofHispanicStudents": 336,
+      "numberofIndianStudents": 10,
+      "numberofPacificIslanderStudents": 9,
+      "numberofWhiteStudents": 233,
+      "numberofTwoOrMoreRaceStudents": 35,
+      "numberofUnspecifiedRaceStudents": 0
+    }
+  ]
+}

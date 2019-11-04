@@ -4,6 +4,8 @@ import { Route, Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import SearchForm from '../Forms/SearchForm';
 import SchoolCardContainer from '../Containers/SchoolCardContainer';
+import SchoolCardDetails from '../Containers/SchoolCardDetails';
+
 // import { getAllSchools, isLoading, hasErrored } from '../actions';
 // import { fetchAllSchools } from '../apiCalls/apiCalls';
 
@@ -31,10 +33,11 @@ export class App extends React.Component {
         <Route path="/" render={() => <SearchForm />} />
         <Link to={"/schools"}>
           <section>
-            <p>All Matching Schools</p>
+            <p>Schools Matching Search</p>
           </section>
         </Link>
         <Route path="/schools" render={() => <SchoolCardContainer />} />
+        <Route path="/schools/:school_id" render={() => <SchoolCardDetails />}/>
       </section>
     )
   }

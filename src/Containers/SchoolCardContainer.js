@@ -8,7 +8,7 @@ export const SchoolCardContainer = ({ schools, error }) => {
   let testSchool = {
     school_id: "080336006756",
     key: "080336006756",
-    school_name: "George Washington",
+    school_name: "George Washington High School",
     phone: '303.399.4532',
     address: '1234 S Monaco St.',
     distance: 5.8,
