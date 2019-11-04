@@ -42,11 +42,11 @@ let schoolCards;
   );
 })) : ( schoolCards = <SchoolCard {...testSchool}/> )}
 console.log('schoolCards is: ', schoolCards);
- return (
-   <section>
-     {schoolCards}
-   </section>
- )
+  return (
+    <section>
+      {schoolCards}
+    </section>
+  )
 };
 
 export const mapStateToProps = state => ({
