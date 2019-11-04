@@ -30,3 +30,5 @@ In addition to viewing the latest and greatest school information, users can als
   * SchoolDiggers API
 
 ## Images
+
+![Schools4Fools-Home](https://user-images.githubusercontent.com/17992280/68147990-67e64700-fef8-11e9-87d3-422066b2ccaf.png)
