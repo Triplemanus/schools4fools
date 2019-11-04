@@ -27,6 +27,6 @@ In addition to viewing the latest and greatest school information, users can als
   * Testing Jest/Enzyme
   * CSS
   * Fetch API
-  * The Movies DB API
+  * SchoolDiggers API
 
 ## Images
