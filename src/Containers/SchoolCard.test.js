@@ -1,8 +1,8 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { SchoolCard, mapStateToProps, mapDispatchToProps } from '../Containers/SchoolCard';
+import { SchoolCard, mapStateToProps } from '../Containers/SchoolCard';
 
-jest.mock('../apiCalls/apiCalls.js')
+jest.mock('../apiCalls/apiCalls.js');
 
 describe('Card', () => {
   let schoolWrapper, schoolsWrapper, mockSchools, mockSchoolName;
@@ -44,35 +44,6 @@ describe('Card', () => {
   it('should match the snapshot with all data passed in correctly', () => {
     expect(schoolWrapper).toMatchSnapshot();
   });
-
-
-//   it('should call deleteFavorite when isFavorite is true', () => {
-
-//     const mockEvent = { preventDefault: jest.fn() }
-
-//     favoriteWrapper.find('button').simulate('click', mockEvent)
-
-//     expect(deleteFavorite).toHaveBeenCalled();
-//   });
-
-//   it('should call postFavorite when isFavorite is false', () => {
-//     const mockEvent = {preventDefault: jest.fn()}
-
-//     newFavoriteWrapper.find('img').at(0).simulate('click', mockEvent);
-
-//     expect(invalidUser).toHaveBeenCalled();
-//     expect(postFavorite).toHaveBeenCalled();
-//   });
-
-//   it('should call isUserLoggedIn on a button click', () => {
-    
-//     albumWrapper.isUserLoggedIn = jest.fn();
-//     let mockEvent = {preventDefault: jest.fn()}
-
-//     albumWrapper.find('button').at(0).simulate('click', mockEvent);
-
-//     expect(albumWrapper.isUserLoggedIn).toHaveBeenCalledWith(mockEvent);
-//   });
 
 });
 
