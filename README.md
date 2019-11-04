@@ -2,7 +2,7 @@
 
 
 ## Overview
-Schools's 4 Fools is a web application that allows users to find and save detailed school information for any schools in theie area, based upon several query parameters.
+Schools's 4 Fools is a web application that allows users to find and save detailed school information for any schools in their area, based upon several query parameters.
 
 In addition to viewing the latest and greatest school information, users can also log in, log out, create a new account, and "favorite" schools to view them at a later time.
 
