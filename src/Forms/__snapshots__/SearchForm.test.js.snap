@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchForm should match the snapshot with all data passed in correctly 1`] = `
+<header>
+  <h1>
+    Search Form
+  </h1>
+  <form
+    id="SearchForm"
+  >
+    <input
+      name="locState"
+      onChange={[Function]}
+      placeholder="State"
+      type="text"
+      value=""
+    />
+    <input
+      name="level"
+      onChange={[Function]}
+      placeholder="Level"
+      value=""
+    />
+    <input
+      name="latLocation"
+      onChange={[Function]}
+      placeholder="Latitude"
+      value=""
+    />
+    <input
+      name="longLocation"
+      onChange={[Function]}
+      placeholder="Longitude"
+      value=""
+    />
+    <input
+      name="maxDistance"
+      onChange={[Function]}
+      placeholder="Distance"
+      value=""
+    />
+    <button
+      onClick={[Function]}
+    >
+      Search Schools
+    </button>
+  </form>
+</header>
+`;
