@@ -4,21 +4,21 @@ import { Route, Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import SearchForm from '../Forms/SearchForm';
 import SchoolCardContainer from '../Containers/SchoolCardContainer';
-import { getAllSchools, isLoading, hasErrored } from '../actions';
-import { fetchAllSchools } from '../apiCalls/apiCalls';
+// import { getAllSchools, isLoading, hasErrored } from '../actions';
+// import { fetchAllSchools } from '../apiCalls/apiCalls';
 
 export class App extends React.Component {
-  componentDidMount = async () => {
-    try {
-      const schools = await fetchAllSchools();
-      console.log('fetched schools is: ', schools);
-      getAllSchools(schools);
-      isLoading(false);
-    } catch ({ message }){
-      isLoading(false);
-      hasErrored(message);
-    }
-    }
+  // componentDidMount = async () => {
+  //   try {
+  //     const schools = await fetchAllSchools();
+  //     console.log('fetched schools is: ', schools);
+  //     getAllSchools(schools);
+  //     isLoading(false);
+  //   } catch ({ message }){
+  //     isLoading(false);
+  //     hasErrored(message);
+  //   }
+  //   }
     
     render() {
       return (
@@ -45,10 +45,10 @@ export const mapStateToProps = (state) => ({
   error: state.error
 });
 
-export const mapDispatchToProps = dispatch => ({
-  isLoading: () => dispatch(isLoading()),
-  getAllSchools: () => dispatch(getAllSchools()),
-  hasErrored: () => dispatch(hasErrored())
-});
+// export const mapDispatchToProps = dispatch => ({
+//   isLoading: () => dispatch(isLoading()),
+//   // getAllSchools: () => dispatch(getAllSchools()),
+//   hasErrored: () => dispatch(hasErrored())
+// });
 
-export default connect(mapStateToProps, mapDispatchToProps)(App);
+export default connect(mapStateToProps)(App);
