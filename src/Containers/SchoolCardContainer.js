@@ -40,7 +40,7 @@ schools ? ( schoolCards = schools.schoolList.map(school => {
   );
 })) : ( schoolCards = <SchoolCard {...testSchool}/> )
   return (
-    <section>
+    <section className="CardContainer">
       {schoolCards}
     </section>
   )
