@@ -9,6 +9,12 @@ In addition to viewing the latest and greatest school information, users can als
 ## Getting started
 * Clone down the repo and install the dependencies with `npm install`.
 * Run `npm start` and visit http://localhost:3000 to view the application in the browser.
+* The query paramaters are:
+    - a two character state: CO
+    - a school level: High, Middle, Elementary, Alt or Private
+    - home/work location Latitude: 39.750944
+    - home/work location Longitude:  -104.996611
+    - maximum distance in miles from Lat/Long above: 20
 * Run the test suite with `npm test`.
 
 ## Learning goals
