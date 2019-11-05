@@ -4,7 +4,7 @@ import './SchoolCardContainer.scss'
 import { connect } from 'react-redux';
 
 export const SchoolCardContainer = ({ schools, error }) => {
-
+console.log('SchoolCC state is :', schools);
   let testSchool = {
     school_id: "080336006756",
     key: "080336006756",
@@ -21,6 +21,7 @@ export const SchoolCardContainer = ({ schools, error }) => {
   }
 
 let schoolCards;
+// WTF! Need some test here that works
 schools ? ( schoolCards = schools.schoolList.map(school => {
   return (
       <SchoolCard
@@ -40,14 +41,16 @@ schools ? ( schoolCards = schools.schoolList.map(school => {
   );
 })) : ( schoolCards = <SchoolCard {...testSchool}/> )
   return (
-    <section>
+    <section className="CardContainer">
       {schoolCards}
     </section>
   )
 };
 
 export const mapStateToProps = state => ({
-  ...state
+  // ...state
+  schools: state.schools,
+  error: state.error
 });
 
 export default connect(mapStateToProps)(SchoolCardContainer);

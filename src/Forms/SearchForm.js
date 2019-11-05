@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { addSchools } from '../actions/index';
 import { fetchAllSchools } from '../apiCalls/apiCalls';
-import { Redirect } from 'react-router-dom';
+import { Redirect, Link } from 'react-router-dom';
 import './SearchForm.scss';
 
 export class SearchForm extends React.Component {
@@ -14,7 +14,8 @@ export class SearchForm extends React.Component {
       latLocation: '',
       longLocation: '',
       maxDistance: '',
-      errorMsg: ''
+      errorMsg: '',
+      render: false
     }
   };
 
@@ -57,9 +58,9 @@ export class SearchForm extends React.Component {
 
   render() {
     const { locState, level, latLocation, longLocation, maxDistance } = this.state;
-    if (this.state.render) {
-      return  <Redirect to="/schools" />
-    }
+      if (this.state.render) {
+        return  <Redirect to="/schools" />
+      }
     return (
       <header>
         <h1>School Search </h1>
@@ -97,7 +98,7 @@ export class SearchForm extends React.Component {
           onChange={this.updateForm}
           />
           <button onClick={event => this.handleSubmit(event)}>
-            Search Schools
+            Search Schools   
           </button>
         </form>
       </header>

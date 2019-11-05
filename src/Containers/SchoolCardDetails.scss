@@ -10,3 +10,34 @@
 #school-name {
   font-size: 30px;
 }
+
+.CardDetails {
+  align-items: center;
+  background-color: rgb(196, 198, 199);
+  border-radius: 12px;
+  border: 4px solid #544061;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5vh;
+  height: 610px;
+  justify-content: space-evenly;
+  margin-bottom: 2px;
+  opacity: .7;
+  width: 470px;
+}
+
+.card-distance {
+  color: black;
+  font-size: 14;
+}
+
+#school-name {
+  color: black;
+  font-size: 16;
+}
+
+#school-address {
+  color: black;
+  font-size: 14;
+}
