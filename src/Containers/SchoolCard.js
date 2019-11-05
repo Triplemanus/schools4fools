@@ -41,7 +41,6 @@ SchoolCard.propTypes = {
   school_id: PropTypes.string,
   school_name: PropTypes.string,
   phone: PropTypes.string,
-  address: PropTypes.object,
   distance: PropTypes.number,
   low_Grade: PropTypes.string,
   high_Grade: PropTypes.string,

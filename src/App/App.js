@@ -10,34 +10,23 @@ import SchoolCardDetails from '../Containers/SchoolCardDetails';
 // import { fetchAllSchools } from '../apiCalls/apiCalls';
 
 export class App extends React.Component {
-  // componentDidMount = async () => {
-  //   try {
-  //     const schools = await fetchAllSchools();
-  //     console.log('fetched schools is: ', schools);
-  //     getAllSchools(schools);
-  //     isLoading(false);
-  //   } catch ({ message }){
-  //     isLoading(false);
-  //     hasErrored(message);
-  //   }
-  //   }
-    
+
     render() {
       return (
         <section className='App'>
-        <Link to={"/"} className="header-link">
+        <Link to="/" className="header-link">
         <div className="headerContents">
               <h1>Schoolhouses Rock!</h1>
             </div>
           </Link> 
         <Route path="/" render={() => <SearchForm />} />
-        <Link to={"/schools"}>
+        <Route exact path="/schools" render={() => <SchoolCardContainer />} />
+        <Link to="/schools">
           <section>
             <p>Schools Matching Search</p>
           </section>
         </Link>
-        <Route path="/schools" render={() => <SchoolCardContainer />} />
-        <Route path="/schools/:school_id" render={() => <SchoolCardDetails />}/>
+        <Route exact path="/schools/:school_id" render={() => <SchoolCardDetails />}/>
       </section>
     )
   }
@@ -47,11 +36,5 @@ export const mapStateToProps = (state) => ({
   schools: state.schools,
   error: state.error
 });
-
-// export const mapDispatchToProps = dispatch => ({
-//   isLoading: () => dispatch(isLoading()),
-//   // getAllSchools: () => dispatch(getAllSchools()),
-//   hasErrored: () => dispatch(hasErrored())
-// });
 
 export default connect(mapStateToProps)(App);

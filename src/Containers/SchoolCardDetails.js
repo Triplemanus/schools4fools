@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './SchoolCardDetails.scss';
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
+import { connect } from 'react-redux';
 
-const SchoolCardDetails = ({  school_name, address, phone, distance, returnRoute }) => {
+export const SchoolCardDetails = ({  school_name, address, phone, distance, returnRoute }) => {
+  console.log('S_C_D state is : ', school_name);
   return (
     <section className="CardDetails">
       <Link to={`${returnRoute}`} className='back-btn'>◀ back</Link>
@@ -17,7 +19,11 @@ const SchoolCardDetails = ({  school_name, address, phone, distance, returnRoute
   )
 }
 
-export default SchoolCardDetails;
+export const mapStateToProps = state => ({
+  ...state
+});
+
+export default connect(mapStateToProps)(SchoolCardDetails);
 
 SchoolCardDetails.propTypes = {
   school_name: PropTypes.string.isRequired,
