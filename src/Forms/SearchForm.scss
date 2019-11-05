@@ -1,0 +1,45 @@
+header {
+  align-items: center;
+  height: 25vh;
+  margin:auto;
+  width: 80%;
+}
+
+// h1 {
+//   height: 10%;
+//   color: #3498DB;
+//   padding: 30px;
+//   font-size: 64px;
+// }
+
+h1 span {
+  color: #E74C3C;
+}
+
+#search-form {
+  align-items: center;
+  display: flex;
+  height: 2em;
+  margin-left: 2%;
+  text-align: center;
+}
+
+input, form button {
+  font-size: 14px;
+  height: 2em;
+  width: 20%;
+}
+
+input {
+  border: 2px solid #A5A5A5;
+  padding-left: 10px;
+}
+
+#search-form button {
+  border: 2px solid #A5A5A5;
+  background-color: #3498DB;
+  font-size: 14px;
+  font-weight: bold;
+  color: #FFF;
+  height: 2.4em;
+}

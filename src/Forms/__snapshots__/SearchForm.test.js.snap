@@ -11,32 +11,33 @@ exports[`SearchForm should match the snapshot with all data passed in correctly 
     <input
       name="locState"
       onChange={[Function]}
-      placeholder="State"
+      placeholder="State - CO"
       type="text"
       value=""
     />
     <input
       name="level"
       onChange={[Function]}
-      placeholder="Level"
+      placeholder="High, Middle"
       value=""
     />
     <input
       name="latLocation"
       onChange={[Function]}
-      placeholder="Latitude"
+      placeholder="Latitude -39.750949"
       value=""
     />
     <input
+      label="Longitude"
       name="longLocation"
       onChange={[Function]}
-      placeholder="Longitude"
+      placeholder="Longitude -104.996605"
       value=""
     />
     <input
       name="maxDistance"
       onChange={[Function]}
-      placeholder="Distance"
+      placeholder="Distance in Miles"
       value=""
     />
     <button
