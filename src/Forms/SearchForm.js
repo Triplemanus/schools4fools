@@ -2,6 +2,8 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { addSchools } from '../actions/index';
 import { fetchAllSchools } from '../apiCalls/apiCalls';
+import { Redirect } from 'react-router-dom';
+import './SearchForm.scss';
 
 export class SearchForm extends React.Component {
   constructor() {
@@ -27,7 +29,8 @@ export class SearchForm extends React.Component {
       latLocation: '',
       longLocation: '',
       maxDistance: '',
-      error: ''
+      error: '',
+      render: false
     });
   };
 
@@ -48,15 +51,19 @@ export class SearchForm extends React.Component {
     fetchAllSchools(querySchools)
     .then(schools => {
       this.props.addSchools(schools)})
-    .catch(error => this.setState({ error: error }));
+      .catch(error => this.setState({ error: error }))
+      .then(this.setState({ render: true }))
   };
 
   render() {
     const { locState, level, latLocation, longLocation, maxDistance } = this.state;
+    if (this.state.render) {
+      return  <Redirect to="/schools" />
+    }
     return (
       <header>
-        <h1>Search Form</h1>
-        <form id="SearchForm">
+        <h1>School Search </h1>
+        <form id="search-form">
           <input
             type="text"
             name="locState"
