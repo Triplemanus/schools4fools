@@ -9,9 +9,10 @@ export const SchoolCardDetails = ({ schools, error, returnRoute}) => {
 
 // export const SchoolCardDetails = ({  school_name, address, phone, distance, returnRoute }) => {
   console.log('S_C_D state, schoolId is : ', schools);
+  //<Link to={`${returnRoute}`} className='back-btn'>◀ back</Link>
   return (
     <section className="CardDetails">
-      <Link to={`${returnRoute}`} className='back-btn'>◀ back</Link>
+      <Link to="/schools" className='back-btn'>◀ back</Link>
       <article id="cardDetails-container">
       <h1 id="school-name">School Name:  {schools.schoolList[1].schoolName}</h1>
       <h2 id="school-address">School Address:  {schools.schoolList[1].address.street}</h2>
