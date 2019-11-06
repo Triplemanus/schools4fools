@@ -3,10 +3,10 @@
 exports[`SearchForm should match the snapshot with all data passed in correctly 1`] = `
 <header>
   <h1>
-    Search Form
+    School Search 
   </h1>
   <form
-    id="SearchForm"
+    id="search-form"
   >
     <input
       name="locState"
