@@ -4,15 +4,16 @@ import './SchoolCardDetails.scss';
 // import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
-export const SchoolCardDetails = ({ schools, error, returnRoute}) => {
+export const SchoolCardDetails = ({ schools}) => {
 
 
 // export const SchoolCardDetails = ({  school_name, address, phone, distance, returnRoute }) => {
-  console.log('S_C_D state, schoolId is : ', schools);
+  console.log('S_C_D state, schools, schoolList is : ', schools, schools.schoolList[3]);
   //<Link to={`${returnRoute}`} className='back-btn'>◀ back</Link>
-  // const theSchool = schools.schoolist.map(school => {
-  //   return school.schoolid === 
-  // })
+  // const theSchool = schools.schoolList.find(school => {
+  //   return school.schoolid === "080609001027"//this.props.schools.school_id
+  // });
+  // console.log('theSchool', theSchool);
   return (
     <section className="CardDetails">
       <Link to="/schools" className='back-btn'>◀ back</Link>
@@ -28,8 +29,7 @@ export const SchoolCardDetails = ({ schools, error, returnRoute}) => {
 }
 
 export const mapStateToProps = state => ({
-  schools: state.schools,
-  error: state.error
+  schools: state.schools
 });
 
 export default connect(mapStateToProps)(SchoolCardDetails);
