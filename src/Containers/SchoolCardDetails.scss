@@ -1,14 +1,12 @@
 #cardDetails-container {
   display: flex;
-  flex-flow: row wrap;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   color: rgb(229, 206, 247);
 }
 
 #school-name {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .CardDetails {
@@ -27,7 +25,12 @@
   width: 470px;
 }
 
-.card-distance {
+.card-low-grade {
+  color: black;
+  font-size: 14;
+}
+
+.card-low-grade {
   color: black;
   font-size: 14;
 }
@@ -35,6 +38,11 @@
 #school-name {
   color: black;
   font-size: 16;
+}
+
+#school-address {
+  color: black;
+  font-size: 14;
 }
 
 #school-address {

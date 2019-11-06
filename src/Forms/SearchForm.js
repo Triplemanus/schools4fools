@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { addSchools } from '../actions/index';
+import { addSchools, isLoading } from '../actions/index';
 import { fetchAllSchools } from '../apiCalls/apiCalls';
 import { Redirect, Link } from 'react-router-dom';
 import './SearchForm.scss';
@@ -49,11 +49,13 @@ export class SearchForm extends React.Component {
   };
 
   searchSchools = querySchools => {
+    isLoading(true);
     fetchAllSchools(querySchools)
     .then(schools => {
       this.props.addSchools(schools)})
       .catch(error => this.setState({ error: error }))
       .then(this.setState({ render: true }))
+    isLoading(false);  
   };
 
   render() {
@@ -107,7 +109,7 @@ export class SearchForm extends React.Component {
 };
 
 export const mapStateToProps = state => ({
-  ...state
+  schools: state.schools
 });
 
 export const mapDispatchToProps = dispatch => ({

@@ -20,6 +20,11 @@ exports[`App should match the snapshot with all data passed in correctly 1`] = `
     path="/"
     render={[Function]}
   />
+  <Route
+    exact={true}
+    path="/schools"
+    render={[Function]}
+  />
   <Link
     to="/schools"
   >
@@ -30,10 +35,7 @@ exports[`App should match the snapshot with all data passed in correctly 1`] = `
     </section>
   </Link>
   <Route
-    path="/schools"
-    render={[Function]}
-  />
-  <Route
+    exact={true}
     path="/schools/:school_id"
     render={[Function]}
   />

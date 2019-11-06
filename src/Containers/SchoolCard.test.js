@@ -13,21 +13,7 @@ describe('Card', () => {
       school_id: "064215006903",
       schoolName: "Helen Stacey Middle",
       phone: "(714) 894-7212",
-      address: {
-        "latLong": {
-          "latitude": 33.747461,
-          "longitude": -118.01877
-        },
-        "street": "6311 Larchwood Dr.",
-        "city": "Huntington Beach",
-        "state": "CA",
-        "stateFull": "California",
-        "zip": "92647",
-        "zip4": "2320",
-        "cityURL": "https://www.schooldigger.com/go/CA/city/Huntington+Beach/search.aspx",
-        "zipURL": "https://www.schooldigger.com/go/CA/zip/92647/search.aspx",
-        "html": "6311 Larchwood Dr.<br />Huntington Beach, CA 92647-2320"
-      },
+      address:  "6311 Larchwood Dr.",
       distance: 20
     }];
     
@@ -57,21 +43,7 @@ describe('Card', () => {
           school_id: "064215006903",
           schoolName: "Helen Stacey Middle",
           phone: "(714) 894-7212",
-          address: {
-            "latLong": {
-              "latitude": 33.747461,
-              "longitude": -118.01877
-            },
-            "street": "6311 Larchwood Dr.",
-            "city": "Huntington Beach",
-            "state": "CA",
-            "stateFull": "California",
-            "zip": "92647",
-            "zip4": "2320",
-            "cityURL": "https://www.schooldigger.com/go/CA/city/Huntington+Beach/search.aspx",
-            "zipURL": "https://www.schooldigger.com/go/CA/zip/92647/search.aspx",
-            "html": "6311 Larchwood Dr.<br />Huntington Beach, CA 92647-2320"
-          },
+          address:  "6311 Larchwood Dr.",
           distance: 20
         }
       ]
