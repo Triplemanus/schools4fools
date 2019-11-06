@@ -17,9 +17,7 @@ export const SchoolCard = ({
       <h2>Name: {school_name}</h2>
       <h3>Address: {address.street}</h3>
       <h3>Phone: {phone}</h3>
-
       <h3>Distance: TBD{distance}</h3>
-  
       <Link to={`/schools/${school_id}`}>
         <button className="detail-button" type="button">School Details</button>
       </Link>

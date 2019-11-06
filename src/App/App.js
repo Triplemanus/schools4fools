@@ -21,16 +21,16 @@ export class App extends React.Component {
           </Link> 
         <Route path="/" render={() => <SearchForm />} />
         <Route exact path="/schools" render={() => <SchoolCardContainer />} />
-        <Link to="/schools">
-          <section>
-            <p>Schools Matching Search</p>
-          </section>
-        </Link>
         <Route exact path="/schools/:school_id" render={() => <SchoolCardDetails />}/>
       </section>
     )
   }
 };
+        // <Link to="/schools">
+        //   <section>
+        //     <p>Schools Matching Search</p>
+        //   </section>
+        // </Link>
 
 export const mapStateToProps = (state) => ({
   schools: state.schools,
