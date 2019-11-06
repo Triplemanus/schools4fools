@@ -1,8 +1,10 @@
 #cardDetails-container {
   display: flex;
+  flex-flow: row wrap;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: rgb(229, 206, 247);
+  color: rgb(188, 186, 189);
 }
 
 #school-name {
@@ -30,7 +32,7 @@
   font-size: 14;
 }
 
-.card-low-grade {
+.card-hi-grade {
   color: black;
   font-size: 14;
 }
