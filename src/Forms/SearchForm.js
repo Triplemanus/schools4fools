@@ -1,8 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { addSchools, isLoading } from '../actions/index';
+import { addSchools, isLoading, hasErrored } from '../actions/index';
 import { fetchAllSchools } from '../apiCalls/apiCalls';
-import { Redirect, Link } from 'react-router-dom';
+import { Redirect } from 'react-router-dom';
 import './SearchForm.scss';
 
 export class SearchForm extends React.Component {
@@ -48,15 +48,34 @@ export class SearchForm extends React.Component {
     this.clearInputs();
   };
 
-  searchSchools = querySchools => {
+
+  searchSchools = async (querySchools) => {
+    const { addSchools, isLoading, hasErrored } = this.props;
+    try {
     isLoading(true);
-    fetchAllSchools(querySchools)
-    .then(schools => {
-      this.props.addSchools(schools)})
-      .catch(error => this.setState({ error: error }))
-      .then(this.setState({ render: true }))
-    isLoading(false);  
-  };
+    let schools = await fetchAllSchools(querySchools)
+     // this.props.addSchools(schools)
+    this.props.addSchools(schools);
+    this.setState({ render: true })
+      isLoading(false);  
+    } catch ({ message }) {
+    this.setState({ render: false })
+    isLoading(false);
+    hasErrored(message);
+  }
+}
+
+
+  
+  // searchSchools = querySchools => {
+  //   isLoading(true);
+  //   fetchAllSchools(querySchools)
+  //   .then(schools => {
+  //     this.props.addSchools(schools)})
+  //     .catch(error => this.setState({ error: error }))
+  //     .then(this.setState({ render: true }))
+  //   isLoading(false);  
+  // };
 
   render() {
     const { locState, level, latLocation, longLocation, maxDistance } = this.state;
@@ -113,7 +132,9 @@ export const mapStateToProps = state => ({
 });
 
 export const mapDispatchToProps = dispatch => ({
-  addSchools: schools => dispatch(addSchools(schools))
+  addSchools: schools => dispatch(addSchools(schools)),
+  isLoading,
+  hasErrored
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(SearchForm);

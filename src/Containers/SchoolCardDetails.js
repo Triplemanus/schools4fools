@@ -10,6 +10,9 @@ export const SchoolCardDetails = ({ schools, error, returnRoute}) => {
 // export const SchoolCardDetails = ({  school_name, address, phone, distance, returnRoute }) => {
   console.log('S_C_D state, schoolId is : ', schools);
   //<Link to={`${returnRoute}`} className='back-btn'>◀ back</Link>
+  // const theSchool = schools.schoolist.map(school => {
+  //   return school.schoolid === 
+  // })
   return (
     <section className="CardDetails">
       <Link to="/schools" className='back-btn'>◀ back</Link>
