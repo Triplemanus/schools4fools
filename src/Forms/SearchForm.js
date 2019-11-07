@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { addSchools, isLoading, hasErrored } from '../actions/index';
+import { addSchools, isLoading, hasErrored } from '../actions';
 import { fetchAllSchools } from '../apiCalls/apiCalls';
 import { Redirect } from 'react-router-dom';
 import { bindActionCreators } from 'redux';
@@ -129,7 +129,9 @@ export class SearchForm extends React.Component {
 };
 
 export const mapStateToProps = state => ({
-  schools: state.schools
+  schools: state.schools,
+  isLoading,
+  hasErrored
 });
 
 export const mapDispatchToProps = dispatch => (
