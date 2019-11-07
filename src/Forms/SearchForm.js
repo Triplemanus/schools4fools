@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { addSchools, isLoading, hasErrored } from '../actions/index';
 import { fetchAllSchools } from '../apiCalls/apiCalls';
 import { Redirect } from 'react-router-dom';
+import { bindActionCreators } from 'redux';
 import './SearchForm.scss';
 
 export class SearchForm extends React.Component {
@@ -50,7 +51,7 @@ export class SearchForm extends React.Component {
 
 
   searchSchools = async (querySchools) => {
-    const { addSchools, isLoading, hasErrored } = this.props;
+    // const { addSchools, isLoading, hasErrored } = this.props;
     try {
     isLoading(true);
     let schools = await fetchAllSchools(querySchools)
@@ -131,10 +132,18 @@ export const mapStateToProps = state => ({
   schools: state.schools
 });
 
-export const mapDispatchToProps = dispatch => ({
-  addSchools: schools => dispatch(addSchools(schools)),
-  isLoading,
-  hasErrored
-});
+export const mapDispatchToProps = dispatch => (
+  bindActionCreators({
+    addSchools,
+    isLoading,
+    hasErrored
+  }, dispatch)
+
+
+  // addSchools: schools => dispatch(addSchools(schools)),
+  // isLoading: 
+  // hasErrored
+);
+
 
 export default connect(mapStateToProps, mapDispatchToProps)(SearchForm);

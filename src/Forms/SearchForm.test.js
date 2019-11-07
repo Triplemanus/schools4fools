@@ -1,7 +1,11 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { SearchForm, mapStateToProps, mapDispatchToProps } from './SearchForm';
+import { fetchAllSchools } from '../apiCalls/apiCalls';
+
 import { addSchools } from '../actions/index'; 
+
+jest.mock('../apiCalls/apiCalls.js');
 
 describe('SearchForm', () => {
   let wrapper, mockSchool, mockAddSchools;
@@ -13,6 +17,23 @@ describe('SearchForm', () => {
     school={mockSchool}
     addSchools={mockAddSchools}
     />);
+
+    fetchAllSchools.mockImplementation(() => {
+      return Promise.resolve([{
+        school_id: "080336006756",
+        key: "080336006756",
+        school_name: "George Washington",
+        phone: '303.399.4532',
+        address: '1234 S Monaco St.',
+        distance: 5.8,
+        low_Grade: '9',
+        high_Grade: '12',
+        level: 'High',
+        is_Charter: false,
+        is_Magnet: false,
+        is_Private: false
+      }])
+    })
   });
 
   it('should match the snapshot with all data passed in correctly', () => {
@@ -151,4 +172,50 @@ describe('mapDispatchToProps', () => {
   
     expect(mockDispatch).toHaveBeenCalledWith(actionToDispatch)
   });
+
+
+  it('should get schools from api when fetchAllSchools is called', async () => {
+    const wrapper = shallow(<SearchForm/>);
+    const mockSchools = [{
+      school_id: "080336006756",
+      key: "080336006756",
+      school_name: "George Washington",
+      phone: '303.399.4532',
+      address: '1234 S Monaco St.',
+      distance: 5.8,
+      low_Grade: '9',
+      high_Grade: '12',
+      level: 'High',
+      is_Charter: false,
+      is_Magnet: false,
+      is_Private: false
+    }];
+    const mockState = {"errorMsg": "", "latLocation": "", "level": "", "locState": "", "longLocation": "", "maxDistance": "", "render": false}
+    const mockQuery = {   locState: 'CO',
+    level: 'High',
+    latLocation: '34.7838456',
+    longLocation: '-104.7864334',
+    maxDistance: '20'
+  }
+    const expectedSchools = [{
+      school_id: "080336006756",
+      key: "080336006756",
+      school_name: "George Washington",
+      phone: '303.399.4532',
+      address: '1234 S Monaco St.',
+      distance: 5.8,
+      low_Grade: '9',
+      high_Grade: '12',
+      level: 'High',
+      is_Charter: false,
+      is_Magnet: false,
+      is_Private: false
+    }];
+
+    expect(wrapper.state()).toEqual(mockState);
+
+    await wrapper.instance().searchSchools(mockQuery);
+
+    expect(wrapper.state()).toEqual(mockState)
+  })
 });

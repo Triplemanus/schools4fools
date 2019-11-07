@@ -22,10 +22,10 @@ describe ('ACTIONS', () => {
 
     let expectedAction = {
       type: "IS_LOADING",
-      isLoading: isLoading
+      isLoading: true
     };
 
-    expect(isLoading()).toEqual(expectedAction);
+    expect(isLoading(isLoading)).toEqual(expectedAction);
 
   });
 

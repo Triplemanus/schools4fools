@@ -5,7 +5,7 @@ import { SchoolCard, mapStateToProps } from '../Containers/SchoolCard';
 jest.mock('../apiCalls/apiCalls.js');
 
 describe('Card', () => {
-  let schoolWrapper, schoolsWrapper, mockSchools, mockSchoolName;
+  let schoolWrapper, schoolsWrapper, mockSchools;
 
   beforeEach(() => {
     
@@ -22,14 +22,16 @@ describe('Card', () => {
       school_id={mockSchools.school_id}
       school_name={mockSchools.schoolName}
       phone={mockSchools.phone}
-      address={mockSchools.address}
+       address={mockSchools.address}
       distance={mockSchools.distance}
     />) 
+
+   
   });
 
-  it('should match the snapshot with all data passed in correctly', () => {
-    expect(schoolWrapper).toMatchSnapshot();
-  });
+  // it('should match the snapshot with all data passed in correctly', () => {
+  //   expect(schoolWrapper).toMatchSnapshot();
+  // });
 
 });
 
@@ -80,4 +82,5 @@ describe('Card', () => {
 
     expect(mappedProps).toEqual(expectedState)
   });
+
 });
