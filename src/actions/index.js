@@ -1,5 +1,6 @@
 export const isLoading = isLoading => ({
-  type: 'IS_LOADING'
+  type: 'IS_LOADING',
+  isLoading
 });
 
 export const getAllSchools = (schools) => ({
