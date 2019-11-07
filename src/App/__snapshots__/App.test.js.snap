@@ -25,15 +25,6 @@ exports[`App should match the snapshot with all data passed in correctly 1`] = `
     path="/schools"
     render={[Function]}
   />
-  <Link
-    to="/schools"
-  >
-    <section>
-      <p>
-        Schools Matching Search
-      </p>
-    </section>
-  </Link>
   <Route
     exact={true}
     path="/schools/:school_id"
