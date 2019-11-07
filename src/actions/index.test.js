@@ -4,9 +4,9 @@ describe ('ACTIONS', () => {
   it ('should have a type of ADD_SCHOOLS', () => {
 
     let schools = {
-      artistId: 150627775,
-      artistName: "Fat Joe & Remy Ma",
-      collectionName: "All the Way Up (feat. French Montana & Infared) - Single"
+      schoolId: 150627775,
+      schoolName: "George Washington High",
+      schoolAddress: "925 S Monaco Parkway"
     };
 
     let expectedAction = {
@@ -21,7 +21,8 @@ describe ('ACTIONS', () => {
     let isLoading = true;
 
     let expectedAction = {
-      type: 'IS_LOADING'
+      type: "IS_LOADING",
+      isLoading: isLoading
     };
 
     expect(isLoading()).toEqual(expectedAction);
@@ -29,13 +30,13 @@ describe ('ACTIONS', () => {
   });
 
   it('should have a type of HAS_ERRORED', () => {
-    let errorMsg = 'These are not the schools you\'re looking for.';
+    let errorMsg = 'These are not the schools you are looking for.';
 
     let expectedAction = {
       type: 'HAS_ERRORED',
-      errorMsg: 'These are not the schools you\'re looking for.'
+      errorMsg: 'These are not the schools you are looking for.'
     }
-      expect(hasErrored()).toEqual(expectedAction);
+      expect(hasErrored(errorMsg)).toEqual(expectedAction);
     
   });
 })
